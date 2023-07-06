@@ -67,7 +67,7 @@ export default defineComponent({
             </div>
           </div>
           <div>
-          <img src={banner} alt=""/>
+          <img src={banner} alt="" onClick={() => toPath('https://coself123-m.rarefy.top')}/>
           </div>
           <div class={style.guangdong}>
             {/* <img src={square} alt="" /> */}
