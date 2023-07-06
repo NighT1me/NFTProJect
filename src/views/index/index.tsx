@@ -66,8 +66,8 @@ export default defineComponent({
               <h2>COSELF PFP-NFT</h2>
             </div>
           </div>
-          <div>
-          <img src={banner} alt="" onClick={() => toPath('https://coself123-m.rarefy.top')}/>
+          <div onClick={() => toPath('https://coself123-m.rarefy.top')}>
+          <img src={banner} alt=""/>
           </div>
           <div class={style.guangdong}>
             {/* <img src={square} alt="" /> */}
